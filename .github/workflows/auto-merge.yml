@@ -25,4 +25,4 @@ jobs:
           git merge origin/dev --no-ff --allow-unrelated-histories -m "Merge dev into main"
           git push origin main
         env:
-          GITHUB_TOKEN: ${{ secrets.MAIN_RULE_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.DEV_TO_MAIN }}
